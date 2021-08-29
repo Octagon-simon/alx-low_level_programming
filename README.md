@@ -1,0 +1,1 @@
+This is the root folder of alx-low_level_programming repo

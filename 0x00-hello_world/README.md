@@ -1,0 +1,1 @@
+This is the project root for 0x00-hello_world
