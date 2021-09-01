@@ -6,8 +6,9 @@
 * Return: Always 0
 *
 */
-int _abs(int)
+int _abs(int x)
 {
+int abs(int);
 int r;
 r = abs(x);
 printf("%d\n", r);
