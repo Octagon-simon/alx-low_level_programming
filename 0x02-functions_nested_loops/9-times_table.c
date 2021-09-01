@@ -3,7 +3,7 @@
 /**
 * times_table - prints 9 times table
 *
-* Return: 0 Always success
+* Return: void
 */
 void times_table(void)
 {
@@ -13,5 +13,4 @@ for (i = 0; i < 10; i++)
 r = i * 9;
 printf("%d\n", r);
 }
-return (0);
 }
