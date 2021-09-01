@@ -11,6 +11,5 @@ int _abs(int x)
 int abs(int);
 int r;
 r = abs(x);
-printf("%d\n", r);
 return (0);
 }
