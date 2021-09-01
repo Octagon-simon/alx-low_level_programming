@@ -3,7 +3,9 @@
 /**
 * _islower - Checks for lowercase character
 *
-* int c - The character to check
+* int c - Function Argument and type
+*
+* c - The character to check
 *
 * Return: 1 if c = lowercase or 0 if otherwise
 */
