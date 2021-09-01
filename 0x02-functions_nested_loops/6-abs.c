@@ -6,10 +6,9 @@
 * Return: Always 0
 *
 */
-int _abs(int x)
+int _abs(int r)
 {
 int abs(int);
-int r;
-r = abs(x);
+r = abs(r);
 return (0);
 }
