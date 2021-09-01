@@ -9,6 +9,7 @@
 int _abs(int r)
 {
 int abs(int);
-r = abs(r);
+x = abs(r);
+printf("%d", x);
 return (0);
 }
