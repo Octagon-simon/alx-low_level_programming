@@ -1,11 +1,19 @@
 #include <stdio.h>
+#include "main.h"
+#include "_putchar.c"
 /**
-* main - Print all possible combinations of single digit numbers
+* main - Prints the word _putchar
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-printf("_putchar\n");
+int i;
+char c[]= "_putchar";
+for(i = 0; i <8; i++)
+{
+_putchar(c[i]);
+}
+_putchar('\n');
 return(0);
 }
