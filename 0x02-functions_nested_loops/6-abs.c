@@ -4,11 +4,12 @@
 * _abs - Computes absolute value of an integer
 *
 * Return: Always 0
+*
 */
-int main(void)
+int _abs(int)
 {
 int r;
-r = abs(r);
+r = abs(x);
 printf("%d\n", r);
 return (0);
 }
