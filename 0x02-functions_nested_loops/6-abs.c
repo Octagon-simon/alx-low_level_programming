@@ -10,8 +10,14 @@
 */
 int _abs(int r)
 {
-int abs(int);
 int x;
-x = abs(r);
+if (r < 0)  
+{  
+x = ( -1 ) * r;
 return (x);
+}
+else
+{
+return (r);
+}
 }
