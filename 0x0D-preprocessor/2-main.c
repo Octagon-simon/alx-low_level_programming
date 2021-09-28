@@ -5,6 +5,6 @@
 * Return: Always 0
 **/
 int main(void){
-printf(__FILE__, "\n");
+printf(__FILE__);
 return(0);
 }
