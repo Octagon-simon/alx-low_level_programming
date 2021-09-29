@@ -7,7 +7,7 @@
 *@owner: owner of dog
 *Return: Always 0
 **/
-struct dog
+struct dog_t
 {
 char *name;
 float age;
