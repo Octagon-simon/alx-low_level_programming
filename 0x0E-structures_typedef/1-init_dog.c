@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
 *init_dog - function prototype
 *@d: poiner
