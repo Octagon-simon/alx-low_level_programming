@@ -1,0 +1,1 @@
+This project folder contains C programs related to structures
