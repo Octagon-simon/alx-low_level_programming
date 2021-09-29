@@ -13,19 +13,19 @@ if (d == NULL)
 else
 {
 if (d->name != NULL)
-printf("Name: %s\n", d->name)
+printf("Name: %s\n", d->name);
 else
 {
 printf("Name: (nill)\n");
 }
-if (d->age != NULL)
-printf("Age: %f\n", d->age)
+if (d->age)
+printf("Age: %f\n", d->age);
 else
 {
 printf("Age: (nill)\n");
 }
 if (d->owner != NULL)
-printf("Owner: %s\n", d->owner)
+printf("Owner: %s\n", d->owner);
 else
 {
 printf("Owner: (nill)\n");
