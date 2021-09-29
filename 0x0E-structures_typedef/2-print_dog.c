@@ -18,12 +18,7 @@ else
 {
 printf("Name: (nill)\n");
 }
-if (d->age)
 printf("Age: %f\n", d->age);
-else
-{
-printf("Age: (nill)\n");
-}
 if (d->owner != NULL)
 printf("Owner: %s\n", d->owner);
 else
