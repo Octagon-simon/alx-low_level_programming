@@ -1,0 +1,1 @@
+This is the very beginning of project Variadic Functions
