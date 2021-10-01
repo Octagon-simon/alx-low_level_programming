@@ -18,7 +18,7 @@ for (i = 0; i < n; i++)
 result = va_arg(str, int);
 if (result + 0 == '\0')
 {
-printf("(nil)");
+printf("(nil)%s", separator);
 }
 else
 {
