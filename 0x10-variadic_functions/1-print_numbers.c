@@ -9,8 +9,6 @@
  **/
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-if (separator != NULL)
-{
 va_list nums;
 unsigned int i;
 int result;
@@ -25,5 +23,4 @@ printf("%s", separator);
 }
 va_end(nums);
 printf("\n");
-}
 }
