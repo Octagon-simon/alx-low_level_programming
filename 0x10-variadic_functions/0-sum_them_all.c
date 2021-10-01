@@ -11,8 +11,8 @@ int sum_them_all(const unsigned int n, ...)
 va_list ptr;
 unsigned int i;
 int result = 0;
-if(n == 0)
-return(0);
+if (n == 0)
+return (0);
 /*init arg to list ptr*/
 va_start(ptr, n);
 /*loop statement*/
