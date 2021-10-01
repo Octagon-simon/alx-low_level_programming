@@ -8,13 +8,11 @@
  **/
 int sum_them_all(const unsigned int n, ...)
 {
+va_list ptr;
 unsigned int i;
-/*init result var*/
+int result = 0;
 if(n == 0)
 return(0);
-int result = 0;
-/*declare ptr to arg list*/
-va_list ptr;
 /*init arg to list ptr*/
 va_start(ptr, n);
 /*loop statement*/
