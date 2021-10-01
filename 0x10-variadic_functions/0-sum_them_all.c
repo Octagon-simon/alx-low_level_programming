@@ -21,6 +21,8 @@ for (int i = 0; i < n; i++)
 result += va_arg(ptr, int);
 /*end traversal*/
 va_end(ptr);
+if (n == 0)
+return (0);
 return (result);
 }
 }
