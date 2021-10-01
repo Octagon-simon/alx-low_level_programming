@@ -9,6 +9,8 @@
 int sum_them_all(const unsigned int n, ...)
 {
 /*init result var*/
+if(n == 0)
+return(0);
 int result = 0;
 /*declare ptr to arg list*/
 va_list ptr;
@@ -21,8 +23,6 @@ for (int i = 0; i < n; i++)
 result += va_arg(ptr, int);
 /*end traversal*/
 va_end(ptr);
-if (n == 0)
-return (0);
 return (result);
 }
 }
