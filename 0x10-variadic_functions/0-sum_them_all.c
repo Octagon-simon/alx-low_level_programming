@@ -23,7 +23,7 @@ for (i = 0; i < n; i++)
 /*access current var and point to the next*/
 result += va_arg(ptr, int);
 /*end traversal*/
+}
 va_end(ptr);
 return (result);
-}
 }
