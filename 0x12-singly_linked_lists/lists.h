@@ -1,4 +1,3 @@
-
 #ifndef ALX_LIST_H
 #define ALX_LIST_H
 
